@@ -1,0 +1,12 @@
+# Get two numbers as input from the user
+numerator = float(input("Enter the numerator: "))
+denominator = float(input("Enter the denominator: "))
+
+# Check if the denominator is not zero
+if denominator == 0:
+    print("Error: Division by zero is not allowed.")
+else:
+    # Perform division
+    result = numerator / denominator
+    print(f"The result of {numerator} / {denominator} is {result}")
+
